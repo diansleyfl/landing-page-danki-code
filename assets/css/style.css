@@ -72,7 +72,7 @@ html, body{
 }
 
 .form {
-	padding: 10px;
+	padding: 20px;
 	width: 400px;
 	height: calc(100% + 40px);
 	float: right;
@@ -118,6 +118,11 @@ html, body{
 	height: 55px;
 	display: inline-block;
 	border: 1px solid #999;
+	padding: 8px 10px;
+}
+
+.input-container input:focus {
+	outline: 0;
 }
 
 .form input[type="submit"] {
